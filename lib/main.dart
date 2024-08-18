@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 
 // import 'package:login_page/login_page.dart';
 // import 'package:login_page/groups.dart';
-// import 'package:login_page/groups.dart';
-// import 'package:login_page/login_page.dart';
-// import 'map.dart';
-// import 'prifle.dart';
+import 'package:login_page/groups.dart';
+import 'package:login_page/login_page.dart';
+import 'map.dart';
+import 'prifle.dart';
 import 'groups.dart';
 // import 'groups.dart';
 void main()
@@ -26,7 +26,9 @@ class MyApp extends StatelessWidget {
       (
         
       ),
-      home: const Group(),
+      // home: const Group(),
+      // home: const LoginPage(),
+      home: const Profile(),
     );
   }
 }
